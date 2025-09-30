@@ -72,19 +72,19 @@
   <ItemGroup>
     <Reference Include="ColpatriaSAI.Datos, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\ColpatriaSAI.Libraries\ColpatriaSAI.Datos\bin\Release\ColpatriaSAI.Datos.dll</HintPath>
+      <HintPath>..\..\SAI.LIB\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Datos.dll</HintPath>
     </Reference>
     <Reference Include="ColpatriaSAI.Negocio.Componentes, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\ColpatriaSAI.Libraries\ColpatriaSAI.Negocio.Componentes\bin\Release\ColpatriaSAI.Negocio.Componentes.dll</HintPath>
+      <HintPath>..\..\SAI.LIB\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Componentes.dll</HintPath>
     </Reference>
     <Reference Include="ColpatriaSAI.Negocio.Entidades, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\ColpatriaSAI.Libraries\ColpatriaSAI.Negocio.Entidades\bin\Release\ColpatriaSAI.Negocio.Entidades.dll</HintPath>
+      <HintPath>..\..\SAI.LIB\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Entidades.dll</HintPath>
     </Reference>
     <Reference Include="ColpatriaSAI.Seguridad.Proveedores, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\ColpatriaSAI.Libraries\ColpatriaSAI.Seguridad.Proveedores\bin\Release\ColpatriaSAI.Seguridad.Proveedores.dll</HintPath>
+      <HintPath>..\..\SAI.LIB\ColpatriaSAI.Seguridad.Proveedores\bin\Debug\ColpatriaSAI.Seguridad.Proveedores.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.Practices.EnterpriseLibrary.Logging.Database, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">

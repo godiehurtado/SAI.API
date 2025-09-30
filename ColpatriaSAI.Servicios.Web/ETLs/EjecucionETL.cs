@@ -76,8 +76,9 @@ namespace ColpatriaSAI.Servicios.Web.ETLs
             }
             catch (Exception)
             {
-                if(idProceso > 0)
+                if (idProceso > 0)
                     Proceso.eliminarProceso(idProceso);
+
             }
 
         }
