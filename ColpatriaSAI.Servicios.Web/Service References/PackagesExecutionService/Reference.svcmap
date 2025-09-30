@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="c08237db-ff14-4e08-b8d2-1e7b3e24939d" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://pru-etlrptui01:3077/PackagesExecutionService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="PackagesExecutionService.xsd" MetadataType="Schema" ID="81871776-f37a-411e-a0df-e3218df17318" SourceId="1" SourceUrl="http://pru-etlrptui01:3077/PackagesExecutionService.svc?xsd=xsd3" />
+    <MetadataFile FileName="PackagesExecutionService1.xsd" MetadataType="Schema" ID="df482e43-63db-4eee-b67b-4ad9491b79f5" SourceId="1" SourceUrl="http://pru-etlrptui01:3077/PackagesExecutionService.svc?xsd=xsd2" />
+    <MetadataFile FileName="PackagesExecutionService2.xsd" MetadataType="Schema" ID="b6e1c7fc-1e33-482c-a464-6d3c9d8a17b4" SourceId="1" SourceUrl="http://pru-etlrptui01:3077/PackagesExecutionService.svc?xsd=xsd0" />
+    <MetadataFile FileName="PackagesExecutionService.wsdl" MetadataType="Wsdl" ID="39f178d0-c137-4837-b48e-2626f071ee49" SourceId="1" SourceUrl="http://pru-etlrptui01:3077/PackagesExecutionService.svc?wsdl" />
+    <MetadataFile FileName="PackagesExecutionService.disco" MetadataType="Disco" ID="00361192-2a08-4a1a-932f-c5893d5c0267" SourceId="1" SourceUrl="http://pru-etlrptui01:3077/PackagesExecutionService.svc?disco" />
+    <MetadataFile FileName="PackagesExecutionService3.xsd" MetadataType="Schema" ID="2acc9e1f-3bba-482a-b002-545ba32abfd5" SourceId="1" SourceUrl="http://pru-etlrptui01:3077/PackagesExecutionService.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

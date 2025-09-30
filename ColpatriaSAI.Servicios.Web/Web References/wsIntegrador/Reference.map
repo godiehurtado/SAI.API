@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiscoveryClientResultsFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://pru-sweb01:3002/WsIntegrador/wsintegrador.asmx?wsdl" filename="wsintegrador.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.DiscoveryDocumentReference" url="http://pru-sweb01:3002/WsIntegrador/wsintegrador.asmx?disco" filename="wsintegrador.disco" />
+  </Results>
+</DiscoveryClientResultsFile>

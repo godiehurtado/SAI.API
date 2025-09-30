@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="AIX_WEB">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DataSource" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Company" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Aplication" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DataBase" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Parameters" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="IpRequest" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="User" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AIX_WEBResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AIX_WEBResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AIX">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DataSource" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Company" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Aplication" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DataBase" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Parameters" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="IpRequest" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="User" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AIXResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AIXResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="XML_AIX_WEB">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xml" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="XML_AIX_WEBResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="XML_AIX_WEBResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AS4">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DataSource" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Company" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Program" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Library" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Parameters" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="IpRequest" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="User" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AS4Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AS4Result" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="XML_AS4">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Xml" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="XML_AS4Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="XML_AS4Result" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="AIX_WEBSoapIn">
+    <wsdl:part name="parameters" element="tns:AIX_WEB" />
+  </wsdl:message>
+  <wsdl:message name="AIX_WEBSoapOut">
+    <wsdl:part name="parameters" element="tns:AIX_WEBResponse" />
+  </wsdl:message>
+  <wsdl:message name="AIXSoapIn">
+    <wsdl:part name="parameters" element="tns:AIX" />
+  </wsdl:message>
+  <wsdl:message name="AIXSoapOut">
+    <wsdl:part name="parameters" element="tns:AIXResponse" />
+  </wsdl:message>
+  <wsdl:message name="XML_AIX_WEBSoapIn">
+    <wsdl:part name="parameters" element="tns:XML_AIX_WEB" />
+  </wsdl:message>
+  <wsdl:message name="XML_AIX_WEBSoapOut">
+    <wsdl:part name="parameters" element="tns:XML_AIX_WEBResponse" />
+  </wsdl:message>
+  <wsdl:message name="AS4SoapIn">
+    <wsdl:part name="parameters" element="tns:AS4" />
+  </wsdl:message>
+  <wsdl:message name="AS4SoapOut">
+    <wsdl:part name="parameters" element="tns:AS4Response" />
+  </wsdl:message>
+  <wsdl:message name="XML_AS4SoapIn">
+    <wsdl:part name="parameters" element="tns:XML_AS4" />
+  </wsdl:message>
+  <wsdl:message name="XML_AS4SoapOut">
+    <wsdl:part name="parameters" element="tns:XML_AS4Response" />
+  </wsdl:message>
+  <wsdl:portType name="WsIntegradorSoap">
+    <wsdl:operation name="AIX_WEB">
+      <wsdl:input message="tns:AIX_WEBSoapIn" />
+      <wsdl:output message="tns:AIX_WEBSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AIX">
+      <wsdl:input message="tns:AIXSoapIn" />
+      <wsdl:output message="tns:AIXSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="XML_AIX_WEB">
+      <wsdl:input message="tns:XML_AIX_WEBSoapIn" />
+      <wsdl:output message="tns:XML_AIX_WEBSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AS4">
+      <wsdl:input message="tns:AS4SoapIn" />
+      <wsdl:output message="tns:AS4SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="XML_AS4">
+      <wsdl:input message="tns:XML_AS4SoapIn" />
+      <wsdl:output message="tns:XML_AS4SoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WsIntegradorSoap" type="tns:WsIntegradorSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="AIX_WEB">
+      <soap:operation soapAction="http://tempuri.org/AIX_WEB" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AIX">
+      <soap:operation soapAction="http://tempuri.org/AIX" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="XML_AIX_WEB">
+      <soap:operation soapAction="http://tempuri.org/XML_AIX_WEB" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AS4">
+      <soap:operation soapAction="http://tempuri.org/AS4" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="XML_AS4">
+      <soap:operation soapAction="http://tempuri.org/XML_AS4" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WsIntegradorSoap12" type="tns:WsIntegradorSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="AIX_WEB">
+      <soap12:operation soapAction="http://tempuri.org/AIX_WEB" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AIX">
+      <soap12:operation soapAction="http://tempuri.org/AIX" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="XML_AIX_WEB">
+      <soap12:operation soapAction="http://tempuri.org/XML_AIX_WEB" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AS4">
+      <soap12:operation soapAction="http://tempuri.org/AS4" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="XML_AS4">
+      <soap12:operation soapAction="http://tempuri.org/XML_AS4" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WsIntegrador">
+    <wsdl:port name="WsIntegradorSoap" binding="tns:WsIntegradorSoap">
+      <soap:address location="http://pru-sweb01:3002/WsIntegrador/wsintegrador.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WsIntegradorSoap12" binding="tns:WsIntegradorSoap12">
+      <soap12:address location="http://pru-sweb01:3002/WsIntegrador/wsintegrador.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
